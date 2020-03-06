@@ -54,7 +54,7 @@
 
 *ISO filename:* `dfly-x86_64-n.n.n_REL.iso`
 
-VirtualBox config: Storage controller type: ACHI. IDE causes kernel
+*VirtualBox config:* Storage controller type: ACHI. IDE causes kernel
 panic during installer.
 
 *Package upgrade:* `sudo pkg upgrade`
@@ -62,6 +62,26 @@ panic during installer.
 *Package install:* `sudo pkg install foo`
 
 *C compiler:* GNU GCC 8.3
+
+=== Installation
+
+* Default choice in the boot loader
+* Login as `installer`
+* Install DragonFly BSD
+* Legacy BIOS
+* Disk ad0
+* Use Entire Disk
+* Use UFS
+* Default partitioning and file system settings
+* Add user, additional groups `wheel,operator`
+* Reboot
+* Login as root
+* `pkg install install git htop mg sudo tmux tree`
+* `visudo` and uncomment `%wheel ALL=(ALL) NOPASSWD: ALL`
+* Login as normal user
+* `sudo -e /etc/ssh/sshd_config`, change `PasswordAuthentication no` to `yes`
+* `sudo reboot`
+* From host OS, `ssh-copy-id dragonfly` then `ssh dragonfly` to test.
 
 == OpenBSD
 
