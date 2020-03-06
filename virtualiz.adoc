@@ -1,0 +1,80 @@
+= VirtualBox setup
+
+== Alpine Linux
+
+*Uname:* `Linux`
+
+*Userland:*
+
+== Debian Linux
+
+*Uname:* `Linux`
+
+*Userland:* GNU
+
+*Package search:* https://packages.debian.org/
+
+*Web:* https://www.debian.org/
+
+*Man:* https://manpages.debian.org/
+
+*VirtualBox config:* Default
+
+== FreeBSD
+
+*Uname:* `FreeBSD`
+
+*Userland:* BSD-style (FreeBSD)
+
+*Packages:* FreeBSD ports and packages
+
+*Package search:* https://www.freshports.org
+
+*Web:* https://www.freebsd.org/
+
+*Man:* https://man.freebsd.org/
+
+*VirtualBox config:* Default
+
+*C compiler:* LLVM clang 6.0.1
+
+== DragonFly BSD
+
+*Uname:* `DragonFly`
+
+*Userland:* BSD-style (FreeBSD with a few DragonFly additions)
+
+*Packages:* FreeBSD ports with a few DragonFly additions
+
+*Web:* https://www.dragonflybsd.org/
+
+*Man:* https://man.dragonflybsd.org/
+
+*ISO download:* https://www.dragonflybsd.org/download/
+
+*ISO filename:* `dfly-x86_64-n.n.n_REL.iso`
+
+VirtualBox config: Storage controller type: ACHI. IDE causes kernel
+panic during installer.
+
+*Package upgrade:* `sudo pkg upgrade`
+
+*Package install:* `sudo pkg install foo`
+
+*C compiler:* GNU GCC 8.3
+
+== OpenBSD
+
+*Packages:* OpenBSD ports and packages
+
+== NetBSD
+
+== OmniOS (Solaris derivative)
+
+== Minix
+
+== Haiku (BeOS derivative)
+
+*Uname:* `Haiku`
+
+*C compiler:* GNU GCC
