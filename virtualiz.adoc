@@ -6,6 +6,18 @@
 
 *Userland:*
 
+*Packages:*
+
+*Package search:* https://pkgs.alpinelinux.org/
+
+*Web:* https://alpinelinux.org/
+
+*Man:*
+
+*VirtualBox config:* Default
+
+*C compiler:*
+
 == Debian Linux
 
 *Uname:* `Linux`
@@ -19,6 +31,10 @@
 *Man:* https://manpages.debian.org/
 
 *VirtualBox config:* Default
+
+*C compiler:*
+
+=== Installation
 
 == FreeBSD
 
@@ -34,9 +50,15 @@
 
 *Man:* https://man.freebsd.org/
 
+*ISO download:* https://www.freebsd.org/where.html
+
+*ISO filename:* `FreeBSD-n.n-RELEASE-amd64-bootonly.iso`
+
 *VirtualBox config:* Default
 
 *C compiler:* LLVM clang 6.0.1
+
+=== Installation
 
 == DragonFly BSD
 
@@ -85,13 +107,37 @@ panic during installer.
 
 == OpenBSD
 
+*Uname:* ``
+
+*Userland:* BSD-style (OpenBSD)
+
 *Packages:* OpenBSD ports and packages
 
 == NetBSD
 
+*Uname:* ``
+
+*Userland:* BSD-style (NetBSD)
+
+*Packages:* pkgsrc
+
 == OmniOS (Solaris derivative)
 
 == Minix
+
+*Uname:* ``
+
+*Userland:*
+
+*Packages:*
+
+*Web:* https://minix3.org/
+
+*Man:* https://man.minix3.org/
+
+*ISO download:* https://wiki.minix3.org/doku.php?id=www:download:start
+
+*ISO filename:* `minix_Rn.n.n-nnnnnnn.iso`
 
 == Haiku (BeOS derivative)
 
