@@ -115,11 +115,27 @@ panic during installer.
 
 == NetBSD
 
-*Uname:* ``
+*Uname:* `NetBSD`
 
 *Userland:* BSD-style (NetBSD)
 
 *Packages:* pkgsrc
+
+*Web:* https://netbsd.org/
+
+*Man:* https://man.netbsd.org/
+
+*ISO download:* https://netbsd.org/
+
+*ISO filename:* `NetBSD-n.n-amd64.iso`
+
+*VirtualBox config:* Default
+
+*Package upgrade:* `sudo pkgin upgrade`
+
+*Package install:* `sudo pkgin install foo`
+
+*C compiler:* GNU GCC 5.5.0
 
 == OmniOS (Solaris derivative)
 
