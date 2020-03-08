@@ -50,6 +50,8 @@
 
 *Man:* https://man.freebsd.org/
 
+*Blog:*
+
 *ISO download:* https://www.freebsd.org/where.html
 
 *ISO filename:* `FreeBSD-n.n-RELEASE-amd64-bootonly.iso`
@@ -68,9 +70,13 @@
 
 *Packages:* FreeBSD ports with a few DragonFly additions
 
+*Package search:*
+
 *Web:* https://www.dragonflybsd.org/
 
 *Man:* https://man.dragonflybsd.org/
+
+*Blog:* https://www.dragonflydigest.com/
 
 *ISO download:* https://www.dragonflybsd.org/download/
 
@@ -112,6 +118,14 @@ panic during installer.
 *Userland:* BSD-style (OpenBSD)
 
 *Packages:* OpenBSD ports and packages
+
+*Package search:* https://openports.se/
+
+*Web:* https://www.openbsd.org/
+
+*Man:* https://man.openbsd.org/
+
+*Blog:* https://undeadly.org/
 
 == NetBSD
 
